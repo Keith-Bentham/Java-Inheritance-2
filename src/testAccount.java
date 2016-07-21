@@ -5,14 +5,14 @@ public class testAccount {
 		int choice = 5;
 
 		while (choice != 4) {
-			System.out.println("\nAccunt Application");
+			System.out.println("\nAccount Application");
 			System.out.println("===================");
 			System.out.println("1.Withdraw");
 			System.out.println("2.Deposit");
 			System.out.println("3.Check Balance");
 			System.out.println("4.Exit");
 
-			choice = Console.readInt("Please enter a value-->");
+			choice = Console.readInt("\nPlease enter a value-->");
 
 			if (choice == 1) {
 				int amt = Console.readInt("Enter Amount");
