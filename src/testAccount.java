@@ -8,7 +8,7 @@ public class testAccount {
 			System.out.println("\nAccunt Application");
 			System.out.println("===================");
 			System.out.println("1.Withdraw");
-			System.out.println("1.Deposit");
+			System.out.println("2.Deposit");
 			System.out.println("3.Check Balance");
 			System.out.println("4.Exit");
 
@@ -25,7 +25,7 @@ public class testAccount {
 					int amt = Console.readInt("Enter Amount");
 					boolean res1 = ma.deposit(amt);
 					if (res1 == false)
-						System.out.println("Error the maximum you can deposit is €300");
+						System.out.println("Error the maximum you can deposit is â‚¬300");
 				}
 				
 			 else if (choice == 3) {
